@@ -11,8 +11,8 @@ import { AuthService } from '../auth.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
-  public username = new FormControl('', Validators.required);
-  public password = new FormControl('', Validators.required);
+  public username = new FormControl('selva', Validators.required);
+  public password = new FormControl('test@123', Validators.required);
   constructor(
     private request: RequestService,
     private storage: StorageService,

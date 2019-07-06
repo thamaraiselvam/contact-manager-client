@@ -1,0 +1,20 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input matInput [formControl]="name" placeholder="name">
+    <mat-error *ngIf="name.invalid">name is required</mat-error>
+
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <input matInput [formControl]="phone" placeholder="phone">
+    <mat-error *ngIf="phone.invalid">phone is required</mat-error>
+  </mat-form-field>
+
+  <br>
+  <button (click)="submit()" mat-raised-button color="primary">
+  <span *ngIf="edit == 'false'">Create</span>
+  <span *ngIf="edit == 'true'">Update</span>
+
+  </button>
+
+</form>

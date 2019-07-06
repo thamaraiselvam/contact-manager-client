@@ -1,6 +1,11 @@
 <button (click)="clear()" mat-raised-button color="danger">Logout</button>
+<button (click)="createTask()" mat-raised-button color="primary">
+  Add
+</button>
+
 
 <div *ngFor="let contact of contacts">
   Name: {{contact.name}}
   Phone: {{contact.phone}}
+  <button (click)="edit(contact)" mat-raised-button color="secondary">Edit</button>
 </div>

@@ -16,7 +16,7 @@ Angular :
     ✔ More https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/ @done(19-07-06 12:03)
 
 Authentication:
-  ✔ Service Side -> Custom Tokens (JWT Tokens - https://medium.com/swlh/a-practical-guide-for-jwt-authentication-using-nodejs-and-express-d48369e7e6d4) @done(19-07-06 14:05)
+  ✔ Service Side -> Custom Tokens (JWT Tokens - https://medium.com/swlh/a-practical-guide-for-jwt-authentication-using-nodejs-and-express-d48369e7e6d4)   @done(19-07-06 14:05)
   ✔ Client Side -> LocalStorage + Service @done(19-07-06 16:03)
 
 Afternoon Session:

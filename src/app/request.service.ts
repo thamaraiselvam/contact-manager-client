@@ -24,4 +24,20 @@ export class RequestService {
 
     return this.http.get('http://localhost:5000/contact', {headers});
   }
+
+  createContact(body) {
+    const headers = new HttpHeaders({
+      Authorization: this.storage.get('token')
+    });
+
+    return this.http.post('http://localhost:5000/contact', body, {headers});
+  }
+
+  updateContact(id, body){
+    const headers = new HttpHeaders({
+      Authorization: this.storage.get('token')
+    });
+
+    return this.http.post(`http://localhost:5000/contact?id=${id}` , body, {headers});
+  }
 }
