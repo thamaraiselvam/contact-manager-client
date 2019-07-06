@@ -1,0 +1,16 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input matInput [formControl]="username" placeholder="Username">
+    <mat-error *ngIf="username.invalid">Username is required</mat-error>
+
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <input matInput [formControl]="password" placeholder="Password">
+    <mat-error *ngIf="password.invalid">Password is required</mat-error>
+  </mat-form-field>
+
+  <br>
+  <button (click)="login()" mat-raised-button color="primary">Login</button>
+
+</form>

@@ -1,0 +1,36 @@
+Morning Session:
+Debug Applications faster:
+  Angular -> Debug via Chrome Dev Tools:
+    ✔ Open Developer Tool -> Select Source Tab -> Find TS files with ctrl + P shortcut -> add breakpoint -> run action  -> now program will be paused for debugging. @done(19-07-06 11:10)
+  NodeJS -> Auto Attachment: @done(19-07-06 11:10)
+    ✔ Open Debug Tool -> Click Start button -> select Node.js App -> now go to files and add breakpoints -> run action -> Now program will be pasued for debugging. @done(19-07-06 11:10)
+
+
+Angular :
+  Component Communication:
+    ✔ Parent -> Child Via @Input @done(19-07-06 11:41)
+    ✔ Child -> Parent Via @ViewChild @done(19-07-06 11:41)
+    ✔ Child -> Parent Via @Output EventEmitters @done(19-07-06 11:41)
+    ✔ Child <-> Parent Via with Service @done(19-07-06 11:52)
+    ✔ State Management @done(19-07-06 12:02)
+    ✔ More https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/ @done(19-07-06 12:03)
+
+Authentication:
+  ✔ Service Side -> Custom Tokens (JWT Tokens - https://medium.com/swlh/a-practical-guide-for-jwt-authentication-using-nodejs-and-express-d48369e7e6d4) @done(19-07-06 14:05)
+  ✔ Client Side -> LocalStorage + Service @done(19-07-06 16:03)
+
+Afternoon Session:
+
+Deployments:
+  ☐ Basic Information about EC2 and open terminal
+
+  MongoDB:
+    ☐ Just Install
+
+  Node:
+    ☐ Deploy with Node JS with help of PM2
+    ☐ Configure with Nginx
+
+  Angular:
+    ☐ Deploy Angular on Our Server with help of Nginx
+    ☐ Deploy Angular on Github
